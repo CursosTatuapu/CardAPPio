@@ -1,3 +1,101 @@
 body{
-	background-color: brown;
+	background-color: #a5582a;
+}
+@font-face {
+    font-family: champagne-limousines;
+    src: url(Champagne_Limousines.ttf);
+}
+@font-face {
+    font-family: emotionenginebolditalic;
+    src: url(EmotionEngineBoldItalic.otf);
+}
+h1{font-size: 2em;}
+.app{
+	margin-top:80px;
+}
+.coffe-cup.icon {
+  color: #000;
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 3px;
+  width: 12px;
+  height: 8px;
+  border-radius: 2px;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+.coffe-cup.icon:after{
+  content: '';
+  position:absolute;
+  right:-5px;
+  top:1px;
+  width:5px;
+  height: 3px;
+  border-radius: 0 3px 3px 0px;
+  border: solid 2px currentColor;
+}
+.coffe-cup.icon:before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  bottom: -5px;
+  width: 18px;
+  height: 1px;
+  border-radius: 0 0 2px 2px;
+  border: solid 1px currentColor;
+  background-color: currentColor;
+}
+
+
+.cardappio-logo{
+	background-color: #421515;
+	padding: 2px;
+	border: 1px solid #094e4c;
+	border-radius: 25px;
+	border-bottom-left-radius: 0px;
+	color:white;
+	letter-spacing: 3px;
+	font-family: champagne-limousines;
+	font-weight: bold;
+}
+.cardappio-logo span{
+	color: #ffa900;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-family: emotionenginebolditalic;
+	margin-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ccardappio-logo{
+	color:white;
+	background-color: #D2691E;
+	padding:5px;
+	border: 1px solid red;
+    border-radius: 25px;
+    letter-spacing: 2px;
+}
+.ccardappio-logo span{
+	color: #753304;
+	letter-spacing: normal;
 }
